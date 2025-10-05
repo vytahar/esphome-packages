@@ -6,7 +6,9 @@ climate:
     id: midea_climate
     #autoconf: false
     visual:
-      min_temperature: 16
+      min_temperature: 17
+      max_temperature: 30
+      temperature_step: 1.0
     supported_modes:
       - FAN_ONLY
       - HEAT_COOL
